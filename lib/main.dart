@@ -49,6 +49,19 @@ class MyApp extends StatelessWidget {
                     child: const Text('2')
                 ),
               ),
+              Expanded(
+                child: TextButton(
+                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.blueGrey.shade900)),
+                  onPressed: () async {
+                    final player = AudioPlayer();
+                    await player.play(
+                      AssetSource('note3.wav'),
+                    );
+                  },
+                    child: const Text('3')
+                ),
+              ),
+
 
             ],
           ),
