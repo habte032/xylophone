@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                       AssetSource('note1.wav'),
                     );
                   },
-                    child: Text('1')
+                    child: const Text('1')
                 ),
               ),
               Expanded(
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                       AssetSource('note2.wav'),
                     );
                   },
-                    child: Text('2')
+                    child: const Text('2')
                 ),
               ),
               Expanded(
@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
                       AssetSource('note3.wav'),
                     );
                   },
-                    child: Text('3')
+                    child: const Text('3')
                 ),
               ),
               Expanded(
@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
                       AssetSource('note4.wav'),
                     );
                   },
-                    child: Text('4')
+                    child: const Text('4')
                 ),
               ),
               Expanded(
@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
                       AssetSource('note5.wav'),
                     );
                   },
-                    child: Text('5')
+                    child: const Text('5')
                 ),
               ),
               Expanded(
@@ -95,7 +95,7 @@ class MyApp extends StatelessWidget {
                       AssetSource('note6.wav'),
                     );
                   },
-                  child: Text('6')
+                  child: const Text('6')
                 ),
               ),
               Expanded(
@@ -107,7 +107,7 @@ class MyApp extends StatelessWidget {
                       AssetSource('note7.wav'),
                     );
                   },
-                  child: Text('7')
+                  child: const Text('7')
                 ),
               ),
 
